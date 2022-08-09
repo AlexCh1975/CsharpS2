@@ -8,10 +8,13 @@
 
 Console.Clear();
 
+int number1 = 7;
+int number2 = 23;
+
 int MultipleNumber(int number)
 {
-    int number1 = 7;
-    int number2 = 23;
+    // int number1 = 7;
+    // int number2 = 23;
     int result1 = (number % number1);
     int result2 = (number % number2);
     if (result1 == 0 && result2 == 0)
@@ -28,11 +31,11 @@ void PrintResult(int result, int number)
 {
     if (result == 1)
     {
-        Console.WriteLine($"Число {number} кратно числу 23 и числу 7");
+        Console.WriteLine($"Число {number} кратно числу {number1} и числу {number2}");
     }
     else
     {
-        Console.WriteLine($"Число {number} не кратно числу 23 и числу 7");
+        Console.WriteLine($"Число {number} не кратно числу {number1} и числу {number2}");
     }
 }
 
