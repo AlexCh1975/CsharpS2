@@ -20,8 +20,6 @@ int MultipleNumber(int number)
     if (result1 == 0 && result2 == 0)
     {
         return 1;
-        Console.WriteLine(result1);
-        Console.WriteLine(result2);
     }
     return 0;
 }
